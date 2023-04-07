@@ -15,7 +15,7 @@ for (item of buttons) {
       var result;
       try {
         result = eval(screenValue);
-      } catch (error) {
+      } catch(error) {
         result = "Expression error";
       }
       screen.value = result;
